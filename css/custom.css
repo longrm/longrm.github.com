@@ -10,11 +10,19 @@ body {
 	text-align: center;
 	text-shadow: 0 1px 3px rgba(0,0,0,.5);
 	box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+	background-color: lightgray;
+}
 
+.bg {
 	background-image: -moz-linear-gradient(top, #18B0D7, #E73408); /*火狐*/
 	background: -o-linear-gradient(top, #18B0D7 0%, #E73408 100%);/*Opera*/
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #18B0D7), color-stop(1, #E73408)); /*Chrome*/
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#18B0D7', endColorstr='#E73408', GradientType='0'); /*IE*/
+}
+
+.tools {
+	text-align: left;
+	background-image: url(../images/tools/bg.jpg);
 }
 
 section {
