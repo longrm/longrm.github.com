@@ -10,7 +10,11 @@ body {
 	text-align: center;
 	text-shadow: 0 1px 3px rgba(0,0,0,.5);
 	box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-	background: url(bg.jpg) repeat
+
+	background-image: -moz-linear-gradient(top, #18B0D7, #E73408); /*火狐*/
+	background: -o-linear-gradient(top, #18B0D7 0%, #E73408 100%);/*Opera*/
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #18B0D7), color-stop(1, #E73408)); /*Chrome*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#18B0D7', endColorstr='#E73408', GradientType='0'); /*IE*/
 }
 
 section {
@@ -62,8 +66,12 @@ p {
 	font-size: 18px;
 }
 
+hr {
+	border-color: #00886D;
+}
+
 /* footer */
-footer {
+.footer {
 	margin-top: 30px;
 	margin-bottom: 20px;
 	padding-top: 10px;
@@ -71,20 +79,20 @@ footer {
 	color: gray;
 }
 
-footer a {
+.footer a {
 	color: #444444;
 }
 
-footer a:hover {
+.footer a:hover {
 	color:black;
 }
 
-footer ul {
+.footer ul {
 	float: right;
 	list-style: none;
 }
 
-footer ul li {
+.footer ul li {
 	float: left;
 	margin-left: 10px;
 }
