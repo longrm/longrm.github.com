@@ -14,10 +14,10 @@ body {
 }
 
 .bg {
-	background-image: -moz-linear-gradient(top, #18B0D7, #E73408); /*火狐*/
-	background: -o-linear-gradient(top, #18B0D7 0%, #E73408 100%);/*Opera*/
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #18B0D7), color-stop(1, #E73408)); /*Chrome*/
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#18B0D7', endColorstr='#E73408', GradientType='0'); /*IE*/
+	background-image: -moz-linear-gradient(top, #66A3FF, #227AFF); /*火狐*/
+	background: -o-linear-gradient(top, #66A3FF 0%, #227AFF 100%);/*Opera*/
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #66A3FF), color-stop(1, #227AFF)); /*Chrome*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#66A3FF', endColorstr='#227AFF', GradientType='0'); /*IE*/
 }
 
 .tool {
