@@ -6,14 +6,14 @@ html {
 body {
 	padding-top: 20px;
 	font-family: "微软雅黑", "宋体";
-	color: #fff;
+	/*color: #fff;*/
 	text-align: center;
-	text-shadow: 0 1px 3px rgba(0,0,0,.5);
-	box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-	background-color: lightgray;
+	/*text-shadow: 0 1px 3px rgba(0,0,0,.5);*/
+	/*box-shadow: inset 0 0 100px rgba(0,0,0,.5);*/
+	background-color: #BBFFFF;/*lightgray;*/
 }
 
-.bg {
+.bg1 {
 	background-image: -moz-linear-gradient(top, #6655AA, #AA5588); /*火狐*/
 	background: -o-linear-gradient(top, #6655AA 0%, #AA5588 100%);/*Opera*/
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #6655AA), color-stop(1, #AA5588)); /*Chrome*/
