@@ -174,3 +174,10 @@ hr {
 	float: right;
 	margin: 0px 10px 0px 10px;
 }
+
+
+/* mobile */
+.mobile_bg-blue {
+	background-color: #0080FF;
+	/*background-image: url(../images/mobile/bg-blue.jpg);*/
+}
